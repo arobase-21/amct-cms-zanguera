@@ -9,6 +9,8 @@ import News from '../partials/News';
 import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
 
+import PresentationHome from '../partials/PresentationHome';
+
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
@@ -20,6 +22,7 @@ function Home() {
       <main className="grow">
 
         {/*  Page sections */}
+        <PresentationHome />
         <HeroHome />
         <FeaturesHome />
         <FeaturesBlocks />
