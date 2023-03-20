@@ -3,12 +3,12 @@ import React from 'react';
 import TeamMember01 from '../images/team-member-01.jpg';
 import TeamMember02 from '../images/team-member-02.jpg';
 import TeamMember03 from '../images/team-member-03.jpg';
-import TeamMember04 from '../images/team-member-04.jpg';
-import TeamMember05 from '../images/team-member-05.jpg';
-import TeamMember06 from '../images/team-member-06.jpg';
-import TeamMember07 from '../images/team-member-07.jpg';
-import TeamMember08 from '../images/team-member-08.jpg';
-import TeamMember09 from '../images/team-member-09.jpg';
+// import TeamMember04 from '../images/team-member-04.jpg';
+// import TeamMember05 from '../images/team-member-05.jpg';
+// import TeamMember06 from '../images/team-member-06.jpg';
+// import TeamMember07 from '../images/team-member-07.jpg';
+// import TeamMember08 from '../images/team-member-08.jpg';
+// import TeamMember09 from '../images/team-member-09.jpg';
 
 function Team() {
   return (
@@ -18,7 +18,7 @@ function Team() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2">The humans behind the product</h2>
+            <h2 className="h2">Le personnel médical</h2>
           </div>
 
           {/* Team members */}
@@ -28,12 +28,12 @@ function Team() {
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src={TeamMember01} width="120" height="120" alt="Team member 01" />
-                <h4 className="text-xl font-bold mb-1">Mark Lamprecht</h4>
-                <div className="text-blue-600 font-medium mb-2">CEO & Co-founder</div>
-                <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-medium">
+                <h4 className="text-xl font-bold mb-1">Dr Amavi FOLLY</h4>
+                <div className="text-blue-600 font-medium mb-2">Directeur du CMS</div>
+                <p className="text-gray-600 text-center mb-3">IDH, DES en Chirurgie Pédiatrie</p>
+               {/* <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div>
+                </div>*/}
               </div>
             </div>
 
@@ -41,12 +41,12 @@ function Team() {
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="150" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src={TeamMember02} width="120" height="120" alt="Team member 02" />
-                <h4 className="text-xl font-bold mb-1">Jessie Pietrasiak</h4>
-                <div className="text-blue-600 font-medium mb-2">CTO & Co-founder</div>
-                <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-medium">
+                <h4 className="text-xl font-bold mb-1">Dr Antoinette FOLLY</h4>
+                <div className="text-blue-600 font-medium mb-2">Médecin permanent</div>
+                <p className="text-gray-600 text-center mb-3">Médecin généraliste</p>
+               {/* <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div>
+                </div>*/}
               </div>
             </div>
 
@@ -55,15 +55,16 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src={TeamMember03} width="120" height="120" alt="Team member 03" />
                 <h4 className="text-xl font-bold mb-1">Marina Hoffman</h4>
-                <div className="text-blue-600 font-medium mb-2">Community Manager</div>
-                <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-medium">
+                <div className="text-blue-600 font-medium mb-2">Responsable de la maternité</div>
+                <p className="text-gray-600 text-center mb-3">Sage femme d'état</p>
+            {/*    <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div>
+                </div>*/}
               </div>
             </div>
 
             {/* 4th member */}
+{/*
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="450" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src={TeamMember04} width="120" height="120" alt="Team member 04" />
@@ -75,9 +76,10 @@ function Team() {
                 </div>
               </div>
             </div>
+*/}
 
             {/* 5th member */}
-            <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="600" data-aos-anchor="[data-aos-id-team]">
+            {/*<div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="600" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src={TeamMember05} width="120" height="120" alt="Team member 05" />
                 <h4 className="text-xl font-bold mb-1">Jessie Pietrasiak</h4>
@@ -87,9 +89,10 @@ function Team() {
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* 6th member */}
+{/*
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="750" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src={TeamMember06} width="120" height="120" alt="Team member 06" />
@@ -101,8 +104,10 @@ function Team() {
                 </div>
               </div>
             </div>
+*/}
 
             {/* 7th member */}
+{/*
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="900" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src={TeamMember07} width="120" height="120" alt="Team member 07" />
@@ -114,8 +119,10 @@ function Team() {
                 </div>
               </div>
             </div>
+*/}
 
             {/* 8th member */}
+{/*
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="1050" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src={TeamMember08} width="120" height="120" alt="Team member 08" />
@@ -127,8 +134,10 @@ function Team() {
                 </div>
               </div>
             </div>
+*/}
 
             {/* 9th member */}
+{/*
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="1200" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src={TeamMember09} width="120" height="120" alt="Team member 09" />
@@ -140,6 +149,7 @@ function Team() {
                 </div>
               </div>
             </div>
+*/}
 
           </div>
 

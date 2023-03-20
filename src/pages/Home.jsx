@@ -8,6 +8,8 @@ import FeaturesWorld from '../partials/FeaturesWorld';
 import News from '../partials/News';
 import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
+import Team from "../partials/Team";
+import Contact from "../partials/Contact";
 
 import PresentationHome from '../partials/PresentationHome';
 
@@ -24,11 +26,13 @@ function Home() {
         {/*  Page sections */}
         <PresentationHome />
         <HeroHome />
-        <FeaturesHome />
+        {/*<FeaturesHome />*/}
         <FeaturesBlocks />
-        <FeaturesWorld />
-        <News />
-        <Cta />
+        <Team/>
+          <Contact/>
+        {/*<FeaturesWorld />*/}
+        {/*<News />*/}
+        {/*<Cta />*/}
 
       </main>
 
