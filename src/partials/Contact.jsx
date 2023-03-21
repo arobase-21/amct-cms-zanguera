@@ -10,7 +10,7 @@ function Contact() {
                         <h2 className="h2 mb-4">Nous contacter</h2>
                     </div>
                     <div className="container mx-auto">
-                        <div className="-mx-4 flex flex-wrap lg:justify-between">
+                        <div className="-mx-4 flex flex-wrap lg:justify-center">
                             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
                                 <div className="mb-12 max-w-[570px] lg:mb-0">
 
@@ -38,7 +38,7 @@ function Contact() {
                                                 Adresse
                                             </h4>
                                             <p className="text-body-color text-base">
-                                                99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                                                Zanguéra , TOGO
                                             </p>
                                         </div>
                                     </div>
@@ -57,10 +57,10 @@ function Contact() {
                                         </div>
                                         <div className="w-full">
                                             <h4 className="text-dark mb-1 text-xl font-bold">
-                                                Phone Number
+                                                Téléphone
                                             </h4>
                                             <p className="text-body-color text-base">
-                                                (+62)81 414 257 9980
+                                                (+228)91 64 92 13
                                             </p>
                                         </div>
                                     </div>
@@ -77,16 +77,17 @@ function Contact() {
                                         </div>
                                         <div className="w-full">
                                             <h4 className="text-dark mb-1 text-xl font-bold">
-                                                Email Address
+                                                Adresse Email
                                             </h4>
-                                            <p className="text-body-color text-base">info@yourdomain.com</p>
+                                            <p className="text-body-color text-base">cmsamct@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-                                <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-                                    <form>
+                            <div className="w-full lg:w-1/2 xl:w-5/12">
+                                <div className="relative rounded-lg bg-white  shadow-lg sm:p-12 ">
+
+                                  {/*  <form>
                                         <div className="mb-6">
                                             <input
                                                 type="text"
@@ -124,7 +125,38 @@ function Contact() {
                                                 Send Message
                                             </button>
                                         </div>
-                                    </form>
+                                    </form>*/}
+                                    <div className="overflow-scroll">
+                                        <div className="">
+                                            <iframe
+                                                className=" w-full aspect-auto"
+                                                width={770}
+                                                height={510}
+                                                // id="gmap_canvas"
+                                                src="https://maps.google.com/maps?q=64PF+P26, Unnamed Road, Sanguéra&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                                                frameBorder={0}
+                                                scrolling="no"
+                                                marginHeight={0}
+                                                marginWidth={0}
+                                            />
+                                            {/*<a href="https://2yu.co">2yu</a>*/}
+                                            <br />
+                                          {/*  <style
+                                                dangerouslySetInnerHTML={{
+                                                    __html:
+                                                        ".mapouter{position:relative;text-align:right;height:510px;width:770px;}"
+                                                }}
+                                            />*/}
+                                            {/*<a href="https://embedgooglemap.2yu.co">html embed google map</a>*/}
+                                        {/*    <style
+                                                dangerouslySetInnerHTML={{
+                                                    __html:
+                                                        ".gmap_canvas {overflow:hidden;background:none!important;}"
+                                                }}
+                                            />*/}
+                                        </div>
+                                    </div>
+
                                     <div>
               <span className="absolute -top-10 -right-9 z-[-1]">
                 <svg
