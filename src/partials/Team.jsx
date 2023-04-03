@@ -54,7 +54,7 @@ function Team() {
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="300" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src="https://res.cloudinary.com/dcauw0zgq/image/upload/v1680492015/AMCT/xknjl2dlznjresmic7i5.jpg" width="120" height="120" alt="Team member 03" />
-                <h4 className="text-xl font-bold mb-1">Marina Hoffman</h4>
+                <h4 className="text-xl font-bold mb-1">Gbéhodé EDORH</h4>
                 <div className="text-blue-600 font-medium mb-2">Responsable de la maternité</div>
                 <p className="text-gray-600 text-center mb-3">Sage femme d'état</p>
             {/*    <div className="text-sm text-gray-600 font-medium">
