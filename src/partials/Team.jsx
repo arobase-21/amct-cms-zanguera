@@ -27,7 +27,7 @@ function Team() {
             {/* 1st member */}
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
-                <img className="rounded-full mb-4" src={TeamMember01} width="120" height="120" alt="Team member 01" />
+                <img className="rounded-full mb-4" src="https://res.cloudinary.com/dcauw0zgq/image/upload/v1680491423/AMCT/mpf3nctd8qsftvnyz5fq.jpg" width="120" height="120" alt="Team member 01" />
                 <h4 className="text-xl font-bold mb-1">Dr Amavi FOLLY</h4>
                 <div className="text-blue-600 font-medium mb-2">Directeur du CMS</div>
                 <p className="text-gray-600 text-center mb-3">IDH, DES en Chirurgie Pédiatrie</p>
@@ -40,7 +40,7 @@ function Team() {
             {/* 2nd member */}
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="150" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
-                <img className="rounded-full mb-4" src={TeamMember02} width="120" height="120" alt="Team member 02" />
+                <img className="rounded-full mb-4" src="https://res.cloudinary.com/dcauw0zgq/image/upload/v1680491847/AMCT/kg253f5crq4xtwu6ovzs.jpg" width="120" height="120" alt="Team member 02" />
                 <h4 className="text-xl font-bold mb-1">Dr Antoinette FOLLY</h4>
                 <div className="text-blue-600 font-medium mb-2">Médecin permanent</div>
                 <p className="text-gray-600 text-center mb-3">Médecin généraliste</p>
@@ -53,7 +53,7 @@ function Team() {
             {/* 3rd member */}
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="300" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
-                <img className="rounded-full mb-4" src={TeamMember03} width="120" height="120" alt="Team member 03" />
+                <img className="rounded-full mb-4" src="https://res.cloudinary.com/dcauw0zgq/image/upload/v1680492015/AMCT/xknjl2dlznjresmic7i5.jpg" width="120" height="120" alt="Team member 03" />
                 <h4 className="text-xl font-bold mb-1">Marina Hoffman</h4>
                 <div className="text-blue-600 font-medium mb-2">Responsable de la maternité</div>
                 <p className="text-gray-600 text-center mb-3">Sage femme d'état</p>

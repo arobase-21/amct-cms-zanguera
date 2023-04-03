@@ -13,8 +13,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Les services que nous proposons</h2>
-            <p className="text-xl text-gray-600">Nous sommes proches de la populations et nous efforcons d'offrir des services de qualités.</p>
+            <h2 className="h2 mb-4">Les prestations de soins que nous proposons</h2>
+            <p className="text-xl text-gray-600">Nous offrons des services de soins de santé de qualité, avec un personnel qui est proche de la population .</p>
           </div>
 
           {/* Items */}
@@ -22,7 +22,7 @@ function FeaturesBlocks() {
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          {/*    <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -32,21 +32,42 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
                   </g>
                 </g>
+              </svg>*/}
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#78bd87"
+                  className="w-20 h-20 "
+                  viewBox="-1.9 -1.9 22.8 22.8"
+              >
+                <path d="M16.417 9.579A7.917 7.917 0 118.5 1.662a7.917 7.917 0 017.917 7.917zm-3.193-.767a1.588 1.588 0 10-1.999 1.534v1.515a2.014 2.014 0 01-4.027 0v-.334a2.676 2.676 0 002.262-2.64v-2.14a1.244 1.244 0 00-.506-1.002.894.894 0 10-.395.754.424.424 0 01.08.248v2.14a1.851 1.851 0 11-3.703 0v-2.14a.422.422 0 01.1-.273.895.895 0 10-.356-.77 1.245 1.245 0 00-.565 1.043v2.14a2.676 2.676 0 002.262 2.64v.334a2.835 2.835 0 105.67 0v-1.515a1.59 1.59 0 001.177-1.534zm-.821 0a.767.767 0 11-.767-.767.768.768 0 01.767.767z"></path>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Médecine Générale</h4>
-              <p className="text-gray-600 text-center">Diagnostic et traitement de pathologies</p>
+              <p className="text-gray-600 text-center">Diagnostic, traitement  et soins infirmiers</p>
             </div>
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
-                  <g strokeWidth="2" transform="translate(19.429 20.571)">
-                    <circle className="stroke-current text-white" strokeLinecap="square" cx="12.571" cy="12.571" r="1.143" />
-                    <path className="stroke-current text-white" d="M19.153 23.267c3.59-2.213 5.99-6.169 5.99-10.696C25.143 5.63 19.514 0 12.57 0 5.63 0 0 5.629 0 12.571c0 4.527 2.4 8.483 5.99 10.696" />
-                    <path className="stroke-current text-green-300" d="M16.161 18.406a6.848 6.848 0 003.268-5.835 6.857 6.857 0 00-6.858-6.857 6.857 6.857 0 00-6.857 6.857 6.848 6.848 0 003.268 5.835" />
-                  </g>
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#fff"
+                  stroke="#fff"
+                  baseProfile="tiny"
+                  version="1.2"
+                  className="w-14 h-20"
+                  viewBox="-122.88 -122.88 501.76 501.76"
+                  xmlSpace="preserve"
+              >
+                <rect
+                    width="501.76"
+                    height="501.76"
+                    x="-122.88"
+                    y="-122.88"
+                    fill="#78bd87"
+                    strokeWidth="0"
+                    rx="250.88"
+                ></rect>
+                <g>
+                  <path d="M9.7 9.8c-.4-.8-.1-1.8.7-2.2L22.6.9c.8-.5 1.8-.1 2.3.7l4.9 8.9c18.5-5.6 39 2.4 48.6 20L54.8 43.4c3.9 7.2 1.3 16.1-5.9 20.1-7.2 3.9-16.2 1.3-20.1-5.9L5.1 70.5c-9.6-17.6-5.2-39.2 9.5-51.7l-4.9-9zm166.7 243.4H256v-82.4h-79.6v82.4zm-9.1-81.8H103c-11.2 0-20.3 9.1-20.3 20.3 0 11.2 9.1 20.3 20.3 20.3h64.3v-40.6zM28.6 253.2h138.6v-32.9H36.9c-4.6 0-8.2 3.7-8.2 8.2v24.7zm49.5-65.7c0-13.6-11-24.5-24.6-24.5-13.6 0-24.6 11-24.6 24.5C29 201 40 212 53.5 212c13.6 0 24.6-11 24.6-24.5m134.2-68.8l-13.8-39.4c-2.7-7.4-7.8-13.2-22.3-13.2h-63.8C97.9 66.2 92.7 72 90 79.4l-13.8 39.4c-1 2.5-1.6 8.3 4.1 12.1l32.5 21.4c4.7 3.1 11.1 1.8 14.3-2.9 3.1-4.7 1.8-11.1-2.9-14.3l-15.6-10.3-10.2-6.7 7.3-20h10l-5.9 16.2 19.6 12.9c4.4 2.9 7.4 7.3 8.5 12.5 1.1 5.2 0 10.4-2.9 14.8-1.2 1.8-2.6 3.3-4.2 4.5h27.1c-1.6-1.3-3-2.8-4.2-4.5-2.9-4.4-3.9-9.7-2.9-14.8 1.1-5.2 4.1-9.6 8.5-12.5l19.6-12.9-6-16.3h10l7.3 20-10.2 6.7-15.6 10.3c-4.7 3.1-6.1 9.5-2.9 14.3 3.1 4.7 9.5 6.1 14.3 2.9l32.5-21.4c5.6-3.8 5-9.5 4-12.1m-61.7-91.1c-1.5 3.3-4.9 5.7-8.8 5.7-3.9 0-7.3-2.3-8.8-5.7h-17.8c-.3 1.6-.5 3.2-.5 4.8 0 15 12.2 27.2 27.2 27.2s27.2-12.2 27.2-27.2c0-1.7-.2-3.3-.5-4.8h-18zm-18.2-6.4c1.1-4.2 4.9-7.4 9.4-7.4s8.4 3.1 9.4 7.4h15.4c-4.3-9.4-13.7-16-24.7-16s-20.4 6.5-24.7 16h15.2z"></path>
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Petite chirurgie</h4>
@@ -55,15 +76,30 @@ function FeaturesBlocks() {
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
-                  <g strokeWidth="2">
-                    <path className="stroke-current text-blue-300" d="M34.743 29.714L36.57 32 27.43 43.429H24M24 20.571h3.429l1.828 2.286" />
-                    <path className="stroke-current text-white" strokeLinecap="square" d="M34.743 41.143l1.828 2.286H40M40 20.571h-3.429L27.43 32l1.828 2.286" />
-                    <path className="stroke-current text-green-300" d="M36.571 32H40" />
-                    <path className="stroke-current text-white" d="M24 32h3.429" strokeLinecap="square" />
-                  </g>
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#fff"
+                  stroke="#fff"
+                  version="1.1"
+                  className="w-14 h-20"
+                  viewBox="-194.56 -194.56 901.12 901.12"
+                  xmlSpace="preserve"
+              >
+                <rect
+                    width="901.12"
+                    height="901.12"
+                    x="-194.56"
+                    y="-194.56"
+                    fill="#78bd87"
+                    strokeWidth="0"
+                    rx="450.56"
+                ></rect>
+                <g>
+                  <path d="M189.153 112.626c-4.961-3.825-11.919 1.093-9.957 7.048l9.12 27.696 24.738-5.565a38.108 38.108 0 0113.109-.644l-37.01-28.535zM364.098 244.664a28.73 28.73 0 00-8.6-17.539c-20.548-27.061-65.995-37.124-65.995-37.124l-32.621-25.152c8.765 21.927-4.19 46.332-27.065 51.478l-17.5 3.937 13.802 41.915.202-.029c2.75 14.664 16.363 25.022 31.531 23.347l80.735-8.958c15.848-1.759 27.268-16.029 25.511-31.875z"></path>
+                  <circle cx="401.389" cy="206.916" r="35.424"></circle>
+                  <path d="M240.068 174.876c-2.315-10.291-12.536-16.752-22.822-14.44l-63.692 14.329-33.624-48.789 33.986 29.133 6.307-1.419-6.396-32.317c-2.463-12.442-13.377-21.437-26.061-21.437H81.811c-12.71 0-23.594 8.968-26.061 21.437L15.125 326.606c-1.387 7.008 4.01 13.502 11.081 13.502h24.513V487.6c0 13.476 10.923 24.399 24.399 24.399s24.399-10.923 24.399-24.399V340.107h10.535V487.6c0 13.476 10.923 24.399 24.399 24.399s24.399-10.923 24.399-24.399V340.107h24.513c7.11 0 12.466-6.505 11.081-13.502l-19.388-97.958-29.652 6.671c-13.604 3.06-27.12-4.614-31.701-17.417l-25.224-70.253 40.948 59.415a19.096 19.096 0 0019.916 7.795l76.284-17.161c10.291-2.314 16.756-12.532 14.441-22.821z"></path>
+                  <circle cx="104.782" cy="42.141" r="42.141"></circle>
+                  <path d="M480.117 296.421H226.149c-9.376 0-16.977 7.601-16.977 16.977s7.601 16.977 16.977 16.977h21.943l80.149 74.749-83.079 77.482c-6.857 6.395-7.232 17.138-.837 23.995 6.395 6.858 17.138 7.231 23.995.837l84.812-79.098 84.812 79.098c6.855 6.394 17.6 6.021 23.995-.837 6.395-6.857 6.02-17.6-.837-23.995l-83.079-77.482 80.149-74.749h21.943c9.376 0 16.977-7.601 16.977-16.977s-7.6-16.977-16.975-16.977z"></path>
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Accouchement</h4>
@@ -72,46 +108,88 @@ function FeaturesBlocks() {
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
-                  <g strokeWidth="2">
-                    <path className="stroke-current text-white" d="M32 37.714A5.714 5.714 0 0037.714 32a5.714 5.714 0 005.715 5.714" />
-                    <path className="stroke-current text-white" d="M32 37.714a5.714 5.714 0 015.714 5.715 5.714 5.714 0 015.715-5.715M20.571 26.286a5.714 5.714 0 005.715-5.715A5.714 5.714 0 0032 26.286" />
-                    <path className="stroke-current text-white" d="M20.571 26.286A5.714 5.714 0 0126.286 32 5.714 5.714 0 0132 26.286" />
-                    <path className="stroke-current text-green-300" d="M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572" strokeLinecap="square" />
-                  </g>
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+
+                  fill="#fff"
+                  stroke="#fff"
+                  version="1.1"
+                  className="w-14 h-20"
+                  viewBox="-45.75 -45.75 549.01 549.01"
+                  xmlSpace="preserve"
+              >
+                <rect
+                    width="549.01"
+                    height="549.01"
+                    x="-45.75"
+                    y="-45.75"
+                    fill="#78bd87"
+                    strokeWidth="0"
+                    rx="274.505"
+                ></rect>
+                <g>
+                  <circle cx="204.986" cy="56.687" r="56.687"></circle>
+                  <path d="M389.136 381.719c-83.138-212.078-74.939-209.576-92.184-229.516-11.745-13.582-27.162-20.76-44.583-20.76h-94.768c-17.421 0-32.838 7.179-44.583 20.76-14.331 16.572-15.878 28.237-44.935 109.236a27.351 27.351 0 0032.368 35.774l102.047-25.469c14.656-3.658 23.572-18.504 19.914-33.161-3.658-14.657-18.508-23.575-33.161-19.915l-52.543 13.114c3.087-8.76 5.803-16.536 8.144-23.314l39.398-9.833c25.721-6.422 51.775 9.227 58.195 34.948 6.375 25.545-9.086 51.74-34.948 58.195-110.56 27.594-102.736 25.711-105.644 26.208-5.657 13.504-8.785 28.349-8.785 43.932 0 16.908 3.689 30.729 10.289 41.903l-6.893 35.588a15.199 15.199 0 003.196 12.558 15.202 15.202 0 0011.721 5.543h187.202a15.2 15.2 0 0014.917-18.101l-6.893-35.588c6.6-11.174 10.289-24.995 10.289-41.903 0-6.575-.563-13.018-1.632-19.285 12.37 32.087 22.016 56.701 22.939 59.057 5.518 14.072 21.397 20.991 35.449 15.479 14.068-5.515 20.999-21.387 15.484-35.45zm-145.685-87.13c9.706-9.854 25.563-9.974 35.417-.268s9.974 25.563.268 35.417c-9.706 9.854-25.563 9.974-35.417.268-9.854-9.706-9.974-25.563-.268-35.417zm-118.435 57.742c.978-6.914 7.385-11.727 14.288-10.748l32.546 4.603a12.64 12.64 0 0110.63 10.059l2.598 13.097 20.614-20.928-19.941-26.667c-4.181-5.592-3.038-13.515 2.554-17.696 5.592-4.181 13.514-3.038 17.696 2.554l22.531 30.129c4.273.547 8.411 2.424 11.717 5.68 8.03 7.91 8.128 20.832.218 28.862l-40.3 40.915c-12.115 12.3-33.369 4.859-34.86-12.573l-5.882-29.652-23.661-3.346c-6.914-.978-11.726-7.376-10.748-14.289zm157.756-71.596c-8.325-42.984-6.763-33.936-8.231-45.938 7.388 20.238 16.206 43.694 24.897 66.526a113.21 113.21 0 00-16.666-20.588z"></path>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Consultation CPN</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Consultations pré-natales</h4>
               <p className="text-gray-600 text-center">Suivi de Grossesses</p>
             </div>
 
             {/* 5th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
-                  <g strokeWidth="2">
-                    <path className="stroke-current text-white" d="M19.429 32a12.571 12.571 0 0021.46 8.89L23.111 23.11A12.528 12.528 0 0019.429 32z" />
-                    <path className="stroke-current text-green-300" d="M32 19.429c6.943 0 12.571 5.628 12.571 12.571M32 24a8 8 0 018 8" />
-                    <path className="stroke-current text-white" d="M34.286 29.714L32 32" />
-                  </g>
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#fff"
+                  stroke="#fff"
+                  version="1.1"
+                  className="w-14 h-20"
+                  viewBox="-169.66 -169.66 797.86 797.86"
+                  xmlSpace="preserve"
+              >
+                <rect
+                    width="797.86"
+                    height="797.86"
+                    x="-169.66"
+                    y="-169.66"
+                    fill="#78bd87"
+                    strokeWidth="0"
+                    rx="398.93"
+                ></rect>
+                <g>
+                  <path d="M204.359 164.114a29.184 29.184 0 018.698-16.606c9.047-8.646 22.185-10.354 32.853-5.283V40.388a8.126 8.126 0 00-8.126-8.126H8.126A8.125 8.125 0 000 40.388v144.66a8.126 8.126 0 008.126 8.126H169.17c8.583-12.344 20.787-22.36 35.189-29.06zm-62.087-25.725l-42.318 28.118c-12.756 8.477-29.768-1.878-27.905-17.207l.286-26.747-19.881-7.189c-5.809-2.101-8.815-8.514-6.715-14.322 2.101-5.81 8.514-8.815 14.322-6.715l27.347 9.89a11.186 11.186 0 017.381 10.639l-.127 11.812 21.646-14.382-12.429-26.708c-2.606-5.601-.179-12.254 5.421-14.86 5.601-2.609 12.254-.179 14.86 5.421l14.044 30.177a17.955 17.955 0 019.115 7.044c5.518 8.303 3.259 19.51-5.047 25.029zm10.303-35.146c-6.772-10.192-3.999-23.945 6.193-30.717 10.192-6.772 23.945-3.999 30.717 6.193 6.772 10.192 3.999 23.945-6.193 30.717-10.193 6.772-23.945 4-30.717-6.193z"></path>
+                  <path d="M288.288 183.115l36.671 3.223-46.939 8.359-34.322-35.913c-5.48-5.734-14.571-5.939-20.305-.46s-5.939 14.57-.46 20.304l39.642 41.479a14.36 14.36 0 0012.9 4.217l54.52-9.709-51.896 24.438c-7.647 3.601-16.469 1.709-22.011-4.073-5.931-6.216 1.488 1.549-43.969-46.015a29.213 29.213 0 01-6.146-9.663c-25.173 13.664-41.562 40.729-32.735 66.814L245.932 256H71.915c-9.518 0-17.233 7.716-17.233 17.233 0 9.518 7.716 17.233 17.233 17.233 142.21-.578 182.282-.416 185.804-.648 7.659-.505 12.302-2.623 15.297-4.601l85.795-56.665c10.409-6.875 12.764-21.184 5.086-31.032l-22.401-28.735c-7.271-9.327-20.726-10.993-30.052-3.722l-5.788 4.512c-2.839-8.247-10.646-14.182-19.857-14.182-4.731 0-9.082 1.582-12.594 4.221a21.1 21.1 0 00-4.113 4.083l18.499 19.357.697.061z"></path>
+                  <circle cx="390.905" cy="154.5" r="31.697"></circle>
+                  <path d="M456.082 197.148c-4.528-6.884-13.78-8.795-20.666-4.268L267.443 303.355H48.204c-8.241 0-14.921 6.68-14.921 14.921s6.681 14.921 14.921 14.921h154.092v34.556H100.72c-10.053 0-18.203 8.149-18.203 18.203s8.15 18.203 18.203 18.203h29.02a17.238 17.238 0 00-.699 4.837c0 9.543 7.737 17.28 17.28 17.28 9.544 0 17.28-7.737 17.28-17.28 0-1.681-.252-3.301-.699-4.837h154.999a17.238 17.238 0 00-.699 4.837c0 9.543 7.737 17.28 17.28 17.28 9.543 0 17.28-7.737 17.28-17.28 0-1.681-.252-3.301-.699-4.837h29.019c10.053 0 18.203-8.149 18.203-18.203s-8.15-18.203-18.203-18.203H278.506v-36.102a14.82 14.82 0 001.603-.908l171.706-112.929c6.885-4.529 8.796-13.781 4.267-20.666z"></path>
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Echographie</h4>
-              <p className="text-gray-600 text-center">Abdominale, pelvienne, obstétricale </p>
+              <p className="text-gray-600 text-center">Tous les organes, Doppler </p>
             </div>
 
             {/* 6th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
-                  <g strokeWidth="2" strokeLinecap="square">
-                    <path className="stroke-current text-white" d="M29.714 40.358l-4.777 2.51 1.349-7.865-5.715-5.57 7.898-1.147L32 21.13l3.531 7.155 7.898 1.147L40 32.775" />
-                    <path className="stroke-current text-green-300" d="M44.571 43.429H34.286M44.571 37.714H34.286" />
-                  </g>
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#fff"
+                  stroke="#fff"
+                  strokeWidth="1.344"
+                  ariaHidden="true"
+                  className="w-16 h-20"
+                  viewBox="-19.84 -19.84 103.68 103.68"
+              >
+                <rect
+                    width="103.68"
+                    height="103.68"
+                    x="-19.84"
+                    y="-19.84"
+                    fill="#78bd87"
+                    strokeWidth="0"
+                    rx="51.84"
+                ></rect>
+                <g fill="#78bd87">
+                  <path d="M22.773 15.418v12.124a1.643 1.643 0 01-1.627 1.663 1.665 1.665 0 01-1.655-1.663V15.418h-3.17v12.124c0 .916-.723 1.659-1.629 1.663a1.665 1.665 0 01-1.655-1.663V15.418H9.991v15.763h15.788V15.418h-3.005z"></path>
+                  <path d="M55.428.423H8.643C4.058.423.329 4.153.329 8.738V55.52c0 4.586 3.73 8.315 8.314 8.315h46.785c4.584 0 8.314-3.729 8.314-8.315V8.738c0-4.585-3.729-8.315-8.314-8.315zM8.381 32.788V13.811h4.655v-3.788h-.501l-.008-.908h4.252l.005.908h-.464v3.788h3.17v-3.788h-.501l-.006-.908h4.249l.007.908h-.466v3.788h4.613v18.977H8.381zm17.428 5.185l11.628 6.717-1.15 1.994-11.631-6.717 1.153-1.994zM54.698 55.28H26.104v-4.772h10.158c6.95 0 12.607-5.654 12.607-12.604 0-4.394-2.281-8.364-5.835-10.63l-5.797 10.04-1.203-.695-1.71 2.959-3.029-1.749 1.71-2.957-1.204-.695 13.786-23.881.927.535 1.387-2.401 3.626 2.094-1.383 2.405.881.508-5.608 9.707c5.006 3.105 8.225 8.633 8.225 14.762 0 4.975-2.128 9.432-5.487 12.604h6.544v4.772z"></path>
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Laboratoire</h4>
